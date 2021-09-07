@@ -1,16 +1,19 @@
-## Andrei Harhun 
+## Andrei Harhun ##
 * Phone: +375298152936
 * Email: anfasan@gmail.com
 * Telegram @anfasan
-## About me
+
+## About me ##
 > I want to be front-end developer. I love learning new information about programming and putting it into practice. The main goal at the moment
 complete a JavaScript / Front-end course at RS school.
-## Skills 
+
+## Skills ##
 * Html5
 * CSS3
 * Basic git
 * Basic JS
-## Code Example
+
+## Code Example ##
 ```javascript
 let salaries = {
     "John": 100,
@@ -29,11 +32,12 @@ function topSalary(salaries){
     }
     return topName;
 }
-alert(topSalary(salaries));
 ```
-## Education 
+
+## Education ##
 * I study at a musical college
-## Languages
+
+## Languages ##
 * russian
 * english a1
 
