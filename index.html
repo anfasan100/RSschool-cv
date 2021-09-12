@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/cv_photo.jpg" alt="It's me" class="my_photo">  
+        <div class="contacs">
+            <h2>Andrei Harhun</h2>
+            <ul>
+                <li>Phone: +375298152936</li>
+                <li>Email: anfasan@gmail.com</li>
+                <li>Telegram @anfasan</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>About me</h2>
+            <p class="first_p">I want to be front-end developer. I love learning new information about programming and putting it into practice. The main goal at the moment
+                complete a JavaScript / Front-end course at RS school.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Html5</li>
+                <li>SCC3</li>
+                <li>Basic git</li>
+                <li>Basic JS</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Education</h2>
+            <p>I study at a musical college</p>
+        </section>
+        <section>
+            <h2>Code Example</h2>
+            <pre class="javascript"><code >
+            let salaries = {
+                "John": 100,
+                "Pete": 300,
+                "Mary": 250
+            };
+            
+            function topSalary(salaries){
+                let topSalary = 0;
+                let topName = null;
+                for( let [kay, value] of Object.entries(salaries)){
+                    if( value > topSalary ){
+                        topSalary = value;
+                        topName = kay;
+                    }
+                }
+                return topName;
+            }</code></pre>
+        </section>
+        <section>
+            <h2> Languages</h2>
+            <ul>
+                <li>russian</li>
+                <li>english a1</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/anfasan100">
+            <img src="images/GitHub-Mark-64px.png" alt="github logo">
+        </a>
+        <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="rs-school logo" class="rs_school_image">
+        </a>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(248, 229, 206);
+    font-family:'Times New Roman', Times, serif;
+    margin:15px 22% 0 22% ;
+    font-size:160%;
+}
+.first_p{
+ background-color: rgb(243, 209, 168);
+}
+.header{
+    margin: 5% 1%;
+}
+.contacs{
+    width: 100%;
+    margin-left: 60%;
+    padding-top: 7%;
+    font-size: 120%;
+}
+section{
+    display: inline-table;
+    height: 100%;
+}
+.javascript{
+    filter:contrast(2%);
+}
+.footer{
+    margin:2% 0 1% 0; 
+}
+.my_photo{
+    float:left;
+    width: 40%;
+    border-radius: 100%;
+}
+.rs_school_image{
+    width:128px;
+    margin-left:3%;
+}
+section:nth-child(2), 
+section:nth-child(3),
+section:nth-child(5){
+    background-color: rgb(248, 224, 195);
+    display: block;
+}
